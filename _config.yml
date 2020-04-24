@@ -30,7 +30,7 @@ twitter_username: ComputeiroD
 github_username:  compdepressivo
 
 # Build settings
-theme: minima
+theme: jekyll-theme-hacker
 remote_teme: pages-theme/minima
 plugins:
   - jekyll-feed
