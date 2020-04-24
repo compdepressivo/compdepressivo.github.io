@@ -20,7 +20,8 @@
 
 title: O Blog do Computeiro
 email: compdepressivo@yandex.com
-description: Blog de coisas aleatórias.
+description: >-
+        Blog de coisas aleatórias.
 # this means to ignore newlines until "baseurl:"
  
 baseurl: "" # the subpath of your site, e.g. /blog
