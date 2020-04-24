@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Álgebra para Programadorers"
+title:  "Álgebra para Programadores"
 date:   2018-09-16 14:03:22 -0300
 categories: math algebra programming
 ---
@@ -123,6 +123,15 @@ Então essa estrutura algébrica formada por String e ⊕ formam, ou são, um Mo
     - ```True and True = True```
     - ```False and True = False```
     - Checked
+
+Existe um Monoid de funções. Se uma função possui como domínio e contradomínio o mesmo conjunto/type, podemos formar um monoid cujo conjunto é o conjunto de TODAS as funções de ```A -> A``` com a operação de composição de funções. ```<A->A, ∘>``` forma um Monoid, vejamos:
+- Fechamento:
+    - A composição recebe duas funções e retorna uma outra função: Checked
+- Associatividade:
+    - A composição é sabidamente associativa.
+- Identidade da composição:
+    - A função identidade ```f(x)=x``` é a identidade da composição. 
+
 
 ## Conclusões
 
