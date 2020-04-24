@@ -31,7 +31,6 @@ github_username:  compdepressivo
 
 # Build settings
 theme: jekyll-theme-minimal
-remote_theme: pawamoy/jekyll-readthedocs
 plugins:
   - jekyll-feed
 
