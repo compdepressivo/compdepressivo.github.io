@@ -94,7 +94,7 @@ O Monoid representa uma espécie de acumulador, que parte de um elemento neutro 
 #### Exemplos
 
 Seja ⊕ a operação concatenação. Ex.: ```"a" ⊕ "b" = "ab"```, ```[1,2] ⊕ [3,4] = [1,2,3,4]```
-```<String, ⊕>```: Esse é um dos monoids mais comuns, O Conjunto das Strings pode ser representado pelo seu Tipo String, a operação é a de concatenação e o elemento neutro é a String vazia ```""```.
+```<String, ⊕, "">```: Esse é um dos monoids mais comuns, O Conjunto das Strings pode ser representado pelo seu Tipo String, a operação é a de concatenação e o elemento neutro é a String vazia ```""```.
 
 Vamos testar se a operação de concatenação obedece às regras do Monoid:
 - Fechamento:
@@ -109,9 +109,9 @@ Vamos testar se a operação de concatenação obedece às regras do Monoid:
 Então essa estrutura algébrica formada por String e ⊕ formam, ou são, um Monoid.
 
 
-```<List[A], ⊕>```: praticamente igual ao monoid anterior, com o elemento neutro sendo a lista vazia ```[]```
+```<List[A], ⊕, []>```: praticamente igual ao monoid anterior, com o elemento neutro sendo a lista vazia ```[]```
 
-```<Bool, AND>```: Monoid Booleano com operador AND, novamente vamos testar as regras:
+```<Bool, AND, True>```: Monoid Booleano com operador AND, novamente vamos testar as regras:
 - Fechamento:
     - AND recebe dois valores booleanos e o seu resultado sempre é Verdadeiro ou Falso
     - Checked
@@ -124,13 +124,13 @@ Então essa estrutura algébrica formada por String e ⊕ formam, ou são, um Mo
     - ```False and True = False```
     - Checked
 
-Existe um Monoid de funções. Se uma função possui como domínio e contradomínio o mesmo conjunto/type, podemos formar um monoid cujo conjunto é o conjunto de TODAS as funções de ```A -> A``` com a operação de composição de funções. ```<A->A, ∘>``` forma um Monoid, vejamos:
+Existe um Monoid de funções. Se uma função possui como domínio e contradomínio o mesmo conjunto/type, podemos formar um monoid cujo conjunto é o conjunto de TODAS as funções de ```A -> A``` com a operação de composição de funções. ```<A->A, ∘, idA>``` forma um Monoid, vejamos:
 - Fechamento:
     - A composição recebe duas funções e retorna uma outra função: Checked
 - Associatividade:
     - A composição é sabidamente associativa.
 - Identidade da composição:
-    - A função identidade ```f(x)=x``` é a identidade da composição. 
+    - A função identidade ```id(x)=x``` é a identidade da composição. 
 
 
 ## Conclusões
