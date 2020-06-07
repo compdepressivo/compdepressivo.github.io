@@ -15,7 +15,7 @@ Eles desenvolveram uma metodologia na qual os participantes tinham 60 segundos p
 
 ## Resultado surpreendente
 
-Para a surpressa dos cientistas, as áreas ativadas pelo cérebro durante as sessões de compreensão de código estavam ligadas à compreensão da fala. OMG. Muito se fala que a programação esta intimamente ligada ao raciocínio lógico/matemático, porém eles não identificaram, nas imagens, partes do cérebro relacionadas a esse tipo de faculdade mental, o que é bastante surpreendente. Como os autores citam no texto, o grande cientista da computação Dijkstra já havia dito que para ser bem sucedido em programação, as pessoas deveriam ter uma boa educação em línguas. Portanto, podemos afirmar que a compreensão de programas está muito mais ligada à comunicação e expressão, do que com raciocínio lógico/matemático. O *paper* encontra-se disponível em sua totalidade em [2].
+Para a surpresa dos cientistas, as áreas ativadas pelo cérebro durante as sessões de compreensão de código estavam ligadas à compreensão da fala. OMG. Muito se fala que a programação esta intimamente ligada ao raciocínio lógico/matemático, porém eles não identificaram, nas imagens, partes do cérebro relacionadas a esse tipo de faculdade mental, o que é bastante surpreendente. Como os autores citam no texto, o grande cientista da computação Dijkstra já havia dito que para ser bem sucedido em programação, as pessoas deveriam ter uma boa educação em línguas. Portanto, podemos afirmar que a compreensão de programas está muito mais ligada à comunicação e expressão, do que com raciocínio lógico/matemático. O *paper* encontra-se disponível em sua totalidade em [2].
 
 ## Referências
 
